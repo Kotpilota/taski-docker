@@ -61,4 +61,4 @@ jobs:
           with:
             context: ./backend/
             push: true
-            tags: ${{ secrets.DOCKER_PASSWORD }}/taski_backend:latest
+            tags: kotpilota/taski_backend:latest
